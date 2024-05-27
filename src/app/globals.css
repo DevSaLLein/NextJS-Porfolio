@@ -38,6 +38,10 @@
   --callout-border-rgb: 172, 175, 176;
   --card-rgb: 180, 185, 188;
   --card-border-rgb: 131, 134, 135;
+
+
+  --background-body: #FAF9F6;
+  --font-color-body: #0C0C0C;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -77,6 +81,11 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  list-style: none;
+}
+
+html {
+  scroll-snap-type: y mandatory; 
 }
 
 html,
@@ -86,13 +95,10 @@ body {
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: #FAF9F6; 
+  color: var(--font-color-body); 
+  height: 100dvh;
+  user-select: none;
 }
 
 a {
