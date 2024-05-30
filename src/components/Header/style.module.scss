@@ -2,7 +2,6 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
 
     div {
         position: fixed;
@@ -20,7 +19,6 @@
             align-items: center;
             flex: 1;
             gap: 1rem;
-    
     
             .li {
                 cursor: pointer;

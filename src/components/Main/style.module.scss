@@ -1,11 +1,10 @@
-
-
 .main {
-    width: 70%;
-    margin-left: 30%;
-    margin-top: 180px;
-    padding-right: 50px;
+    // position: absolute;
 
+    // left: calc(350px + 2rem);
+    // top: 20.5%;
+
+    
     .container {
         background-color: white;
         box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.1);
@@ -14,8 +13,6 @@
      
         .section {
             height: 100dvh;
-            scroll-snap-align: start;
-
             h1 {
                 font-size: 2rem;
                 margin-bottom: 15px;
@@ -24,7 +21,7 @@
             p {
                 font-size: 1.3rem;
                 line-height: 1.5;
-                max-width: 400px;
+                max-width: 450px;
                 display: block;
                 margin-top: 10px;
             }
