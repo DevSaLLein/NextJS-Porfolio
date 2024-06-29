@@ -6,7 +6,7 @@ import Main from "@/components/Main";
 const App = () => {
   return (
     <>
-      <Header></Header>
+      {/* <Header></Header> */}
       <Content>
         <Aside></Aside>
         <Main></Main>

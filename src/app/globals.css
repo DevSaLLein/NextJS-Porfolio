@@ -88,16 +88,10 @@ html {
   scroll-snap-type: y mandatory; 
 }
 
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
-}
-
 body {
   background-color: #FAF9F6; 
   color: var(--font-color-body); 
-  height: 100dvh;
+  min-height: 100vh;
   user-select: none;
 }
 
